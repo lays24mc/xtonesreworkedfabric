@@ -24,6 +24,7 @@ public class XtonesBlocksGroups {
                         // blocks
 
                         entries.add(ModBlocks.XTBlock);
+                        entries.add(ModBlocks.FLAT_LAMP);
 
                         entries.add(AgonBlocks.AgonBlock);
                         entries.add(AgonBlocks.AgonBlock1);

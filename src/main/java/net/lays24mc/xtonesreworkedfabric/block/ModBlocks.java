@@ -14,6 +14,8 @@ public class ModBlocks {
     /*Add blocks*/
     public static final Block XTBlock = registerBlock("xtone_tile",
             new Block(AbstractBlock.Settings.create().strength(6f).requiresTool()));
+    public static final Block FLAT_LAMP = registerBlock("flat_lamp",
+            new Block(AbstractBlock.Settings.create().strength(6f).requiresTool()));
 
     /*Helper methodes*/
 
