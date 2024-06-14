@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"tag": "xtonesreworkedfabric:glaxx"
+		},
+		"G": {
+			"item": "minecraft:white_dye"
+		}
+	},
+	"pattern": ["BBB", "BGB", "BBB"],
+	"result": {
+		"id": "xtonesreworkedfabric:glaxx_block_0",
+		"count": 8
+	}
+}

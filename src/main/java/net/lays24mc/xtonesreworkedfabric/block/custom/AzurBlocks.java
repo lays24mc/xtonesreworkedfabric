@@ -41,4 +41,5 @@ public class AzurBlocks {
         XtonesReworkedFabric.LOGGER.info("Registering AzurBlocks for " + XtonesReworkedFabric.MOD_ID);
 
     }
+
 }

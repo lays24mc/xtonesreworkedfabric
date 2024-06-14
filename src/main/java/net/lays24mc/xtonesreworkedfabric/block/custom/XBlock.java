@@ -6,7 +6,7 @@ import net.minecraft.block.Block;
 public class XBlock extends Block {
     public XBlock(){
         super(
-                AbstractBlock.Settings.create().strength(6f).requiresTool()
+                AbstractBlock.Settings.create().strength(1.5f, 6.0f).requiresTool()
         );
     }
 }

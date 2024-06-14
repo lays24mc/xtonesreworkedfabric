@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+	  "tag": "xtonesreworkedfabric:azur"
+	},
+	"result": {
+		"id": "xtonesreworkedfabric:azur_block_7",
+		"count": 1
+	}
+  }

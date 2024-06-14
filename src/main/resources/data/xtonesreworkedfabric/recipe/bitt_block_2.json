@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"X": {
+			"tag": "xtonesreworkedfabric:bitt"
+		},
+		"D": {
+			"item": "minecraft:yellow_dye"
+		}
+	},
+	"pattern": ["XXX", "XDX", "XXX"],
+	"result": {
+		"id": "xtonesreworkedfabric:bitt_block_2",
+		"count": 8
+	}
+}

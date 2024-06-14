@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"item": "xtonesreworkedfabric:xtone_tile"
+		},
+		"C": {
+			"item": "minecraft:blue_dye"
+		}
+	},
+	"pattern": ["BBB", "BBB", "BCB"],
+	"result": {
+		"id": "xtonesreworkedfabric:lave_block_0",
+		"count": 8
+	}
+}

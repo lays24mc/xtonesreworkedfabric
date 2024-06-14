@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"item": "xtonesreworkedfabric:xtone_tile"
+		},
+		"C": {
+			"item": "minecraft:black_dye"
+		}
+	},
+	"pattern": ["BBB", "BCB", "BBB"],
+	"result": {
+		"id": "xtonesreworkedfabric:vect_block_0",
+		"count": 8
+	}
+}

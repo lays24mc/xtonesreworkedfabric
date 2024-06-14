@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"tag": "xtonesreworkedfabric:fort"
+		},
+		"C": {
+			"item": "minecraft:white_dye"
+		}
+	},
+	"pattern": ["BBB", "BCB", "BBB"],
+	"result": {
+		"id": "xtonesreworkedfabric:fort_block_10",
+		"count": 8
+	}
+}
