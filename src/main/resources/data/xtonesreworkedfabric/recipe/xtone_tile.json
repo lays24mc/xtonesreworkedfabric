@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["SS ", "SBS", " SS"],
+	"key": {
+		"B": {
+			"item": "minecraft:stone"
+		},
+		"S": {
+			"item": "minecraft:stone_slab"
+		}
+	},
+	"result": {
+		"id": "xtonesreworkedfabric:xtone_tile",
+		"count": 8
+	}
+}

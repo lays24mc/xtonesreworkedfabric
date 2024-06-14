@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+	  "tag": "xtonesreworkedfabric:kryp"
+	},
+	"result": {
+    "count": 1,
+    "id": "xtonesreworkedfabric:kryp_block_7"
+	}
+  }

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"tag": "xtonesreworkedfabric:zeta"
+		},
+		"C": {
+			"item": "minecraft:purple_dye"
+		}
+	},
+	"pattern": ["BBB", "BBB", "BCB"],
+	"result": {
+		"id": "xtonesreworkedfabric:zeta_block_9",
+		"count": 8
+	}
+}

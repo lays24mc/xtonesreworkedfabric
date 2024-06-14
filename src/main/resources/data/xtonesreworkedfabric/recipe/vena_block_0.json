@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"item": "xtonesreworkedfabric:xtone_tile"
+		},
+		"C": {
+			"item": "minecraft:cobbled_deepslate"
+		}
+	},
+	"pattern": ["BBB", "BCB", "BBB"],
+	"result": {
+		"id": "xtonesreworkedfabric:vena_block_0",
+		"count": 8
+	}
+}
