@@ -1,0 +1,7 @@
+    {
+        "parent": "block/cube_all",
+        "textures": {
+            "all": "xtonesreworkedfabric:block/glaxx/14"
+        },
+        "render_type": "translucent"
+    }

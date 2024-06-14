@@ -1,0 +1,23 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"particle": "xtonesreworkedfabric:block/lamp_flat/lamp_up_off",
+		"top": "xtonesreworkedfabric:block/lamp_flat/lamp_up_off",
+		"bottom": "xtonesreworkedfabric:block/lamp_flat/lamp_down",
+		"side": "xtonesreworkedfabric:block/lamp_flat/lamp_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"down": { "texture": "#bottom", "cullface": "down" },
+				"up": { "texture": "#top" },
+				"north": { "texture": "#side", "cullface": "north" },
+				"south": { "texture": "#side", "cullface": "south" },
+				"west": { "texture": "#side", "cullface": "west" },
+				"east": { "texture": "#side", "cullface": "east" }
+			}
+		}
+	]
+}

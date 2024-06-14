@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "xtonesreworkedfabric",
+	"version": "${version}",
+	"name": "Xtones Reworked Fabric",
+	"description": "This is a fabric port of Xtones Reworked",
+	"authors": [
+		"Lays24MC"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/xtonesreworkedfabric/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lays24mc.xtonesreworkedfabric.XtonesReworkedFabric"
+		],
+		"client": [
+			"net.lays24mc.xtonesreworkedfabric.XtonesReworkedFabricClient"
+		],
+		"fabric-datagen": [
+			"net.lays24mc.xtonesreworkedfabric.XtonesReworkedFabricDataGenerator"
+		]
+	},
+	"mixins": [
+		"xtonesreworkedfabric.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21-",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

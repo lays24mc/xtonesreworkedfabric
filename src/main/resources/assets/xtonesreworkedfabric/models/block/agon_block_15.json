@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "xtonesreworkedfabric:block/agon/agon_block_15_light_gray"
+	}
+}
