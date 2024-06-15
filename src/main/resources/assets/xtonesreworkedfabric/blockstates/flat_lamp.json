@@ -1,53 +1,28 @@
 {
 	"variants": {
-		"facing=down,lit=false": {
+		"facing=down": {
 			"model": "xtonesreworkedfabric:block/flat_lamp",
 			"x": 180
 		},
-		"facing=down,lit=true": {
-			"model": "xtonesreworkedfabric:block/flat_lamp_on",
-			"x": 180
-		},
-		"facing=east,lit=false": {
+		"facing=east": {
 			"model": "xtonesreworkedfabric:block/flat_lamp",
 			"x": 90,
 			"y": 90
 		},
-		"facing=east,lit=true": {
-			"model": "xtonesreworkedfabric:block/flat_lamp_on",
-			"x": 90,
-			"y": 90
-		},
-		"facing=north,lit=false": {
+		"facing=north": {
 			"model": "xtonesreworkedfabric:block/flat_lamp",
 			"x": 90
 		},
-		"facing=north,lit=true": {
-			"model": "xtonesreworkedfabric:block/flat_lamp_on",
-			"x": 90
-		},
-		"facing=south,lit=false": {
+		"facing=south": {
 			"model": "xtonesreworkedfabric:block/flat_lamp",
 			"x": 90,
 			"y": 180
 		},
-		"facing=south,lit=true": {
-			"model": "xtonesreworkedfabric:block/flat_lamp_on",
-			"x": 90,
-			"y": 180
-		},"facing=up,lit=false": {
+		"facing=up": {
 			"model": "xtonesreworkedfabric:block/flat_lamp"
 		},
-		"facing=up,lit=true": {
-			"model": "xtonesreworkedfabric:block/flat_lamp_on"
-		},
-		"facing=west,lit=false": {
+		"facing=west": {
 			"model": "xtonesreworkedfabric:block/flat_lamp",
-			"x": 90,
-			"y": 270
-		},
-		"facing=west,lit=true": {
-			"model": "xtonesreworkedfabric:block/flat_lamp_on",
 			"x": 90,
 			"y": 270
 		}

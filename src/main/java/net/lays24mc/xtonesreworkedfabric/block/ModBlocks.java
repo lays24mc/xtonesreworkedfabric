@@ -1,6 +1,7 @@
 package net.lays24mc.xtonesreworkedfabric.block;
 
 import net.lays24mc.xtonesreworkedfabric.XtonesReworkedFabric;
+import net.lays24mc.xtonesreworkedfabric.block.custom.FlatLamp;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -14,12 +15,15 @@ public class ModBlocks {
     /*Add blocks*/
     public static final Block XTBlock = registerBlock("xtone_tile",
             new Block(AbstractBlock.Settings.create().strength(6f).requiresTool()));
-    public static final Block FLAT_LAMP = registerBlock("flat_lamp",
-            new Block(AbstractBlock.Settings.create().strength(6f).requiresTool()));
-
+    public static final FlatLamp FLAT_LAMP = registerFlatlampBlock("flat_lamp", new FlatLamp(AbstractBlock.Settings.create().strength(2f).requiresTool()));
     /*Helper methodes*/
 
     private static Block registerBlock(String name, Block block){
+        registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
+    }
+
+    private static FlatLamp registerFlatlampBlock(String name, FlatLamp block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
     }
