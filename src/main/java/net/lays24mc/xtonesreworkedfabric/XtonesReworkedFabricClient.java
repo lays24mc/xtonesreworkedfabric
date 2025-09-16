@@ -2,9 +2,13 @@ package net.lays24mc.xtonesreworkedfabric;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.lays24mc.xtonesreworkedfabric.block.custom.GlaxxBlocks;
 import net.lays24mc.xtonesreworkedfabric.block.custom.XGlass;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
 
 public class XtonesReworkedFabricClient implements ClientModInitializer {
 
