@@ -8,9 +8,11 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 public class XBlock extends Block {
-    public XBlock(){
+
+    public XBlock(String name){
         super(
                 AbstractBlock.Settings.create()
+                        .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name)))
                         .strength(1.5f, 6.0f)
                         .requiresTool()
         );

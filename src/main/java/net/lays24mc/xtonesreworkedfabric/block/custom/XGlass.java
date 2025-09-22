@@ -13,7 +13,7 @@ public class XGlass extends TransparentBlock {
     public XGlass(){
         super(
                 AbstractBlock.Settings.create()
-                        .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, "")))
+                        .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, "placeholder")))
                         .strength(0.3f)
                         .requiresTool()
                         .sounds(BlockSoundGroup.GLASS)
