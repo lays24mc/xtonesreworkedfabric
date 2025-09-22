@@ -1,14 +1,8 @@
 package net.lays24mc.xtonesreworkedfabric.block.custom;
 
-import net.lays24mc.xtonesreworkedfabric.XtonesReworkedFabric;
 import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
 
-public class CrayBlocks {
+public class CrayBlocks extends ModBlockRegistryFactory {
 
     public static final Block CrayBlock = registerBlock("cray_block_0", new XBlock());
     public static final Block CrayBlock1 = registerBlock("cray_block_1", new XBlock());
@@ -27,18 +21,4 @@ public class CrayBlocks {
     public static final Block CrayBlock14 = registerBlock("cray_block_14", new XBlock());
     public static final Block CrayBlock15 = registerBlock("cray_block_15", new XBlock());
 
-    private static Block registerBlock(String name, Block block){
-        registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
-    }
-
-    private static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, Identifier.of(XtonesReworkedFabric.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
-    }
-
-    public static void registerModBlocks(){
-        XtonesReworkedFabric.LOGGER.info("Registering CrayBlocks for " + XtonesReworkedFabric.MOD_ID);
-
-    }
 }

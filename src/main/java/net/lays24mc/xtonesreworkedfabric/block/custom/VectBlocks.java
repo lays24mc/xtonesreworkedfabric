@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class VectBlocks {
+public class VectBlocks extends ModBlockRegistryFactory {
 
     public static final Block VectBlock = registerBlock("vect_block_0", new XBlock());
     public static final Block VectBlock1 = registerBlock("vect_block_1", new XBlock());
@@ -27,18 +27,4 @@ public class VectBlocks {
     public static final Block VectBlock14 = registerBlock("vect_block_14", new XBlock());
     public static final Block VectBlock15 = registerBlock("vect_block_15", new XBlock());
 
-    private static Block registerBlock(String name, Block block){
-        registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
-    }
-
-    private static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, Identifier.of(XtonesReworkedFabric.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
-    }
-
-    public static void registerModBlocks(){
-        XtonesReworkedFabric.LOGGER.info("Registering VectBlocks for " + XtonesReworkedFabric.MOD_ID);
-
-    }
 }

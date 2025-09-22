@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class ZechBlocks {
+public class ZechBlocks extends ModBlockRegistryFactory {
 
     public static final Block ZechBlock = registerBlock("zech_block_0", new XBlock());
     public static final Block ZechBlock1 = registerBlock("zech_block_1", new XBlock());
@@ -27,18 +27,4 @@ public class ZechBlocks {
     public static final Block ZechBlock14 = registerBlock("zech_block_14", new XBlock());
     public static final Block ZechBlock15 = registerBlock("zech_block_15", new XBlock());
 
-    private static Block registerBlock(String name, Block block){
-        registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
-    }
-
-    private static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, Identifier.of(XtonesReworkedFabric.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
-    }
-
-    public static void registerModBlocks(){
-        XtonesReworkedFabric.LOGGER.info("Registering ZechBlocks for " + XtonesReworkedFabric.MOD_ID);
-
-    }
 }

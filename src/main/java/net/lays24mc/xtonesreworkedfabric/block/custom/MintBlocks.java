@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class MintBlocks {
+public class MintBlocks extends ModBlockRegistryFactory {
 
     public static final Block MintBlock = registerBlock("mint_block_0", new XBlock());
     public static final Block MintBlock1 = registerBlock("mint_block_1", new XBlock());
@@ -27,18 +27,4 @@ public class MintBlocks {
     public static final Block MintBlock14 = registerBlock("mint_block_14", new XBlock());
     public static final Block MintBlock15 = registerBlock("mint_block_15", new XBlock());
 
-    private static Block registerBlock(String name, Block block){
-        registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
-    }
-
-    private static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, Identifier.of(XtonesReworkedFabric.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
-    }
-
-    public static void registerModBlocks(){
-        XtonesReworkedFabric.LOGGER.info("Registering MintBlocks for " + XtonesReworkedFabric.MOD_ID);
-
-    }
 }

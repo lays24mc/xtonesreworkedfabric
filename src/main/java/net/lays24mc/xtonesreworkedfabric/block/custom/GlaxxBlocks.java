@@ -6,9 +6,11 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
-public class GlaxxBlocks{
+public class GlaxxBlocks extends ModBlockRegistryFactory {
+
 
     public static final Block GlaxxBlock = registerBlock("glaxx_block_0", new XGlass());
     public static final Block GlaxxBlock1 = registerBlock("glaxx_block_1", new XGlass());
@@ -27,18 +29,4 @@ public class GlaxxBlocks{
     public static final Block GlaxxBlock14 = registerBlock("glaxx_block_14", new XGlass());
     public static final Block GlaxxBlock15 = registerBlock("glaxx_block_15", new XGlass());
 
-    private static Block registerBlock(String name, Block block){
-        registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
-    }
-
-    private static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, Identifier.of(XtonesReworkedFabric.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
-    }
-
-    public static void registerModBlocks(){
-        XtonesReworkedFabric.LOGGER.info("Registering GlaxxBlocks for " + XtonesReworkedFabric.MOD_ID);
-
-    }
 }

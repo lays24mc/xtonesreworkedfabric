@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class ZtylBlocks {
+public class ZtylBlocks extends ModBlockRegistryFactory {
 
     public static final Block ZtylBlock = registerBlock("ztyl_block_0", new XBlock());
     public static final Block ZtylBlock1 = registerBlock("ztyl_block_1", new XBlock());
@@ -27,18 +27,4 @@ public class ZtylBlocks {
     public static final Block ZtylBlock14 = registerBlock("ztyl_block_14", new XBlock());
     public static final Block ZtylBlock15 = registerBlock("ztyl_block_15", new XBlock());
 
-    private static Block registerBlock(String name, Block block){
-        registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
-    }
-
-    private static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, Identifier.of(XtonesReworkedFabric.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
-    }
-
-    public static void registerModBlocks(){
-        XtonesReworkedFabric.LOGGER.info("Registering ZtylBlocks for " + XtonesReworkedFabric.MOD_ID);
-
-    }
 }

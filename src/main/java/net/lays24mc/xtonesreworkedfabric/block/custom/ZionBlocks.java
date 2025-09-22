@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class ZionBlocks {
+public class ZionBlocks extends ModBlockRegistryFactory {
 
     public static final Block ZionBlock = registerBlock("zion_block_0", new XBlock());
     public static final Block ZionBlock1 = registerBlock("zion_block_1", new XBlock());
@@ -27,18 +27,4 @@ public class ZionBlocks {
     public static final Block ZionBlock14 = registerBlock("zion_block_14", new XBlock());
     public static final Block ZionBlock15 = registerBlock("zion_block_15", new XBlock());
 
-    private static Block registerBlock(String name, Block block){
-        registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
-    }
-
-    private static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, Identifier.of(XtonesReworkedFabric.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
-    }
-
-    public static void registerModBlocks(){
-        XtonesReworkedFabric.LOGGER.info("Registering ZionBlocks for " + XtonesReworkedFabric.MOD_ID);
-
-    }
 }
