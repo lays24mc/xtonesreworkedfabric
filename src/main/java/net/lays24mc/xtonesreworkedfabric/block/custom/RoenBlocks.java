@@ -10,20 +10,24 @@ import net.minecraft.util.Identifier;
 
 public class RoenBlocks extends ModBlockRegistryFactory {
 
-    public static final Block RoenBlock = registerBlock("roen_block_0", new XBlock());
-    public static final Block RoenBlock1 = registerBlock("roen_block_1", new XBlock());
-    public static final Block RoenBlock2 = registerBlock("roen_block_2", new XBlock());
-    public static final Block RoenBlock3 = registerBlock("roen_block_3", new XBlock());
-    public static final Block RoenBlock4 = registerBlock("roen_block_4", new XBlock());
-    public static final Block RoenBlock5 = registerBlock("roen_block_5", new XBlock());
-    public static final Block RoenBlock6 = registerBlock("roen_block_6", new XBlock());
-    public static final Block RoenBlock7 = registerBlock("roen_block_7", new XBlock());
-    public static final Block RoenBlock8 = registerBlock("roen_block_8", new XBlock());
-    public static final Block RoenBlock9 = registerBlock("roen_block_9", new XBlock());
-    public static final Block RoenBlock10 = registerBlock("roen_block_10", new XBlock());
-    public static final Block RoenBlock11 = registerBlock("roen_block_11", new XBlock());
-    public static final Block RoenBlock12 = registerBlock("roen_block_12", new XBlock());
-    public static final Block RoenBlock13 = registerBlock("roen_block_13", new XBlock());
-    public static final Block RoenBlock14 = registerBlock("roen_block_14", new XBlock());
-    public static final Block RoenBlock15 = registerBlock("roen_block_15", new XBlock());
+    public static void registerModBlocks(){
+        XtonesReworkedFabric.LOGGER.info("Registering Roen Blocks for " + XtonesReworkedFabric.MOD_ID);
+    }
+
+    public static final Block RoenBlock = registerBlock("roen_block_0", new XBlock("roen_block_0"));
+    public static final Block RoenBlock1 = registerBlock("roen_block_1", new XBlock("roen_block_1"));
+    public static final Block RoenBlock2 = registerBlock("roen_block_2", new XBlock("roen_block_2"));
+    public static final Block RoenBlock3 = registerBlock("roen_block_3", new XBlock("roen_block_3"));
+    public static final Block RoenBlock4 = registerBlock("roen_block_4", new XBlock("roen_block_4"));
+    public static final Block RoenBlock5 = registerBlock("roen_block_5", new XBlock("roen_block_5"));
+    public static final Block RoenBlock6 = registerBlock("roen_block_6", new XBlock("roen_block_6"));
+    public static final Block RoenBlock7 = registerBlock("roen_block_7", new XBlock("roen_block_7"));
+    public static final Block RoenBlock8 = registerBlock("roen_block_8", new XBlock("roen_block_8"));
+    public static final Block RoenBlock9 = registerBlock("roen_block_9", new XBlock("roen_block_9"));
+    public static final Block RoenBlock10 = registerBlock("roen_block_10", new XBlock("roen_block_10"));
+    public static final Block RoenBlock11 = registerBlock("roen_block_11", new XBlock("roen_block_11"));
+    public static final Block RoenBlock12 = registerBlock("roen_block_12", new XBlock("roen_block_12"));
+    public static final Block RoenBlock13 = registerBlock("roen_block_13", new XBlock("roen_block_13"));
+    public static final Block RoenBlock14 = registerBlock("roen_block_14", new XBlock("roen_block_14"));
+    public static final Block RoenBlock15 = registerBlock("roen_block_15", new XBlock("roen_block_15"));
 }

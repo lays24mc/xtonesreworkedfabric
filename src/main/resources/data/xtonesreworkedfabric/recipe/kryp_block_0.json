@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"item": "xtonesreworkedfabric:xtone_tile"
-		},
-		"S": {
-			"item": "minecraft:dirt"
-		}
-	},
-	"pattern": ["BBB", "BSB", "BBB"],
-	"result": {
-		"id": "xtonesreworkedfabric:kryp_block_0",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "xtonesreworkedfabric:xtone_tile",
+        "S": "minecraft:dirt"
+    },
+    "pattern": [
+        "BBB",
+        "BSB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworkedfabric:kryp_block_0",
+        "count": 8
+    }
 }

@@ -1,11 +1,8 @@
 {
-	"type": "minecraft:stonecutting",
-	"count": 1,
-	"ingredient": {
-	  "tag": "xtonesreworkedfabric:sync"
-	},
-	"result": {
-    "count": 1,
-    "id": "xtonesreworkedfabric:sync_block_3"
-	}
-  }
+    "type": "minecraft:stonecutting",
+    "ingredient": "#xtonesreworkedfabric:sync",
+    "result": {
+        "count": 1,
+        "id": "xtonesreworkedfabric:sync_block_3"
+    }
+}

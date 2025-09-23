@@ -26,5 +26,5 @@ public class ModBlocks extends ModBlockRegistryFactory {
                     .strength(6f)
                     .requiresTool()));
 
-  //  public static final FlatLamp FLAT_LAMP = registerFlatlampBlock("flat_lamp", new FlatLamp(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+//    public static final FlatLamp FLAT_LAMP = registerFlatlampBlock("flat_lamp", new FlatLamp(AbstractBlock.Settings.create().strength(2f).requiresTool()));
 }

@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"tag": "xtonesreworkedfabric:zion"
-		},
-		"C": {
-			"item": "minecraft:yellow_dye"
-		}
-	},
-	"pattern": ["BBB", "BCB", "BBB"],
-	"result": {
-		"id": "xtonesreworkedfabric:zion_block_1",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "#xtonesreworkedfabric:zion",
+        "C": "minecraft:yellow_dye"
+    },
+    "pattern": [
+        "BBB",
+        "BCB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworkedfabric:zion_block_1",
+        "count": 8
+    }
 }

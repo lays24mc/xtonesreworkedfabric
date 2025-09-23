@@ -10,10 +10,10 @@ import net.minecraft.util.Identifier;
 
 public class XGlass extends TransparentBlock {
 
-    public XGlass(){
+    public XGlass(String name){
         super(
                 AbstractBlock.Settings.create()
-                        .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, "placeholder")))
+                        .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name)))
                         .strength(0.3f)
                         .requiresTool()
                         .sounds(BlockSoundGroup.GLASS)

@@ -1,11 +1,8 @@
 {
-	"type": "minecraft:stonecutting",
-	"count": 1,
-	"ingredient": {
-	  "tag": "xtonesreworkedfabric:lair"
-	},
-	"result": {
-    "count": 1,
-    "id": "xtonesreworkedfabric:lair_block_14"
-	}
-  }
+    "type": "minecraft:stonecutting",
+    "ingredient": "#xtonesreworkedfabric:lair",
+    "result": {
+        "count": 1,
+        "id": "xtonesreworkedfabric:lair_block_14"
+    }
+}

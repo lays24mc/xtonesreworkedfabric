@@ -13,7 +13,7 @@ public class XBlock extends Block {
         super(
                 AbstractBlock.Settings.create()
                         .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name)))
-                        .strength(1.5f, 6.0f)
+                        .strength(6f, 6.0f)
                         .requiresTool()
         );
     }

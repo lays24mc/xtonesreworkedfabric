@@ -10,21 +10,25 @@ import net.minecraft.util.Identifier;
 
 public class SolsBlocks extends ModBlockRegistryFactory  {
 
-    public static final Block SolsBlock = registerBlock("sols_block_0", new XBlock());
-    public static final Block SolsBlock1 = registerBlock("sols_block_1", new XBlock());
-    public static final Block SolsBlock2 = registerBlock("sols_block_2", new XBlock());
-    public static final Block SolsBlock3 = registerBlock("sols_block_3", new XBlock());
-    public static final Block SolsBlock4 = registerBlock("sols_block_4", new XBlock());
-    public static final Block SolsBlock5 = registerBlock("sols_block_5", new XBlock());
-    public static final Block SolsBlock6 = registerBlock("sols_block_6", new XBlock());
-    public static final Block SolsBlock7 = registerBlock("sols_block_7", new XBlock());
-    public static final Block SolsBlock8 = registerBlock("sols_block_8", new XBlock());
-    public static final Block SolsBlock9 = registerBlock("sols_block_9", new XBlock());
-    public static final Block SolsBlock10 = registerBlock("sols_block_10", new XBlock());
-    public static final Block SolsBlock11 = registerBlock("sols_block_11", new XBlock());
-    public static final Block SolsBlock12 = registerBlock("sols_block_12", new XBlock());
-    public static final Block SolsBlock13 = registerBlock("sols_block_13", new XBlock());
-    public static final Block SolsBlock14 = registerBlock("sols_block_14", new XBlock());
-    public static final Block SolsBlock15 = registerBlock("sols_block_15", new XBlock());
+    public static void registerModBlocks(){
+        XtonesReworkedFabric.LOGGER.info("Registering Sols Blocks for " + XtonesReworkedFabric.MOD_ID);
+    }
+
+    public static final Block SolsBlock = registerBlock("sols_block_0", new XBlock("sols_block_0"));
+    public static final Block SolsBlock1 = registerBlock("sols_block_1", new XBlock("sols_block_1"));
+    public static final Block SolsBlock2 = registerBlock("sols_block_2", new XBlock("sols_block_2"));
+    public static final Block SolsBlock3 = registerBlock("sols_block_3", new XBlock("sols_block_3"));
+    public static final Block SolsBlock4 = registerBlock("sols_block_4", new XBlock("sols_block_4"));
+    public static final Block SolsBlock5 = registerBlock("sols_block_5", new XBlock("sols_block_5"));
+    public static final Block SolsBlock6 = registerBlock("sols_block_6", new XBlock("sols_block_6"));
+    public static final Block SolsBlock7 = registerBlock("sols_block_7", new XBlock("sols_block_7"));
+    public static final Block SolsBlock8 = registerBlock("sols_block_8", new XBlock("sols_block_8"));
+    public static final Block SolsBlock9 = registerBlock("sols_block_9", new XBlock("sols_block_9"));
+    public static final Block SolsBlock10 = registerBlock("sols_block_10", new XBlock("sols_block_10"));
+    public static final Block SolsBlock11 = registerBlock("sols_block_11", new XBlock("sols_block_11"));
+    public static final Block SolsBlock12 = registerBlock("sols_block_12", new XBlock("sols_block_12"));
+    public static final Block SolsBlock13 = registerBlock("sols_block_13", new XBlock("sols_block_13"));
+    public static final Block SolsBlock14 = registerBlock("sols_block_14", new XBlock("sols_block_14"));
+    public static final Block SolsBlock15 = registerBlock("sols_block_15", new XBlock("sols_block_15"));
 
 }
