@@ -23,7 +23,6 @@ import net.minecraft.world.World;
 
 public class FlatLamp extends FacingBlock {
 
-
   public static final MapCodec<? extends FacingBlock> CODEC = createCodec(FlatLamp::new);
   public static final BooleanProperty LIT;
   public static final IntProperty LUMINANCE = IntProperty.of("luminance", 0, 15);

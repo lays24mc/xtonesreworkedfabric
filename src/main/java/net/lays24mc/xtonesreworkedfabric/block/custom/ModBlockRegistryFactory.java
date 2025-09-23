@@ -20,6 +20,11 @@ public class ModBlockRegistryFactory {
         return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
     }
 
+    public static FlatLamp registerFlatlampBlock(String name, FlatLamp block){
+        registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID, name), block);
+    }
+
     private static void registerBlockItem(String name, Block block){
         Registry.register(Registries.ITEM, Identifier.of(XtonesReworkedFabric.MOD_ID,  name),
                 new BlockItem(block, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(XtonesReworkedFabric.MOD_ID, name)))));
