@@ -1,6 +1,6 @@
-    {
-        "parent": "block/cube_all",
-        "textures": {
-            "all": "xtonesreworkedfabric:block/lave/7"
-        }
-    }
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "xtonesreworkedfabric:block/lave/7"
+  }
+}
