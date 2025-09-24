@@ -16,7 +16,7 @@ public class XtonesReworkedFabric implements ModInitializer {
     @Override
 	public void onInitialize() {
 		XtonesBlocksGroups.registerItemGroup();
-
+        /*register*/
         ModBlocks.registerModBlocks();
 		AgonBlocks.registerModBlocks();
 		AzurBlocks.registerModBlocks();
