@@ -24,7 +24,8 @@ public class ModBlocks extends ModBlockRegistryFactory {
     public static final FlatLamp FLAT_LAMP = registerFlatlampBlock("flat_lamp",
             new FlatLamp(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID,"flat_lamp")))
                     .strength(2f)
-                    .requiresTool()));
+                    .requiresTool()
+                    .nonOpaque()));
 
     public static final Block XTBlock = registerBlock("xtone_tile",
             new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(XtonesReworkedFabric.MOD_ID,"xtone_tile")))

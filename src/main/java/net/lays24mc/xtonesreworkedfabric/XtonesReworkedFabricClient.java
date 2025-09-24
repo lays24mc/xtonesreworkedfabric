@@ -3,6 +3,8 @@ package net.lays24mc.xtonesreworkedfabric;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
+import net.lays24mc.xtonesreworkedfabric.block.ModBlocks;
+import net.lays24mc.xtonesreworkedfabric.block.custom.FlatLamp;
 import net.lays24mc.xtonesreworkedfabric.block.custom.GlaxxBlocks;
 import net.lays24mc.xtonesreworkedfabric.block.custom.XGlass;
 import net.minecraft.client.render.RenderLayer;
@@ -32,6 +34,8 @@ public class XtonesReworkedFabricClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GlaxxBlocks.GlaxxBlock13, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(GlaxxBlocks.GlaxxBlock14, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(GlaxxBlocks.GlaxxBlock15, RenderLayer.getTranslucent());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLAT_LAMP, RenderLayer.getCutout());
 
     }
 }
