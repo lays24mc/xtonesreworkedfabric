@@ -2,11 +2,6 @@ package net.lays24mc.xtonesreworkedfabric.block.custom;
 
 import net.lays24mc.xtonesreworkedfabric.XtonesReworkedFabric;
 import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
 
 public class ZythBlocks extends ModBlockRegistryFactory {
 

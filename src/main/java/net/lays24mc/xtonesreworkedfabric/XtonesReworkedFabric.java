@@ -1,12 +1,11 @@
 package net.lays24mc.xtonesreworkedfabric;
 
+import net.fabricmc.api.ModInitializer;
 import net.lays24mc.xtonesreworkedfabric.block.ModBlocks;
 import net.lays24mc.xtonesreworkedfabric.block.custom.*;
+import net.lays24mc.xtonesreworkedfabric.item.XtonesBlocksGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import net.fabricmc.api.ModInitializer;
-import net.lays24mc.xtonesreworkedfabric.item.XtonesBlocksGroups;
 
 public class XtonesReworkedFabric implements ModInitializer {
 
